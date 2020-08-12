@@ -1,6 +1,9 @@
 package test
 
+func Hello() string {
+	return "hello~"
+}
 
 func Get(str string) string {
-	return "res: " + str
+	return "new-res: " + str
 }
